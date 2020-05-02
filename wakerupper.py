@@ -1,5 +1,6 @@
-#!./bin/python
+#!/usr/bin/env python
 # coding: utf-8
+
 import pychromecast
 import random
 import time
@@ -28,11 +29,12 @@ mycc.register_handler(yt)
 
 videos_to_play = [
     {'name': 'Power', 'artist': 'Kanye West', 'id': 'L53gjP-TtGE'},
-    {'name': 'Wally Wilder', 'artist': 'Delicate Steve', 'id': 'MJ7chrLEZm4'}
+    {'name': 'Wally Wilder', 'artist': 'Delicate Steve', 'id': 'MJ7chrLEZm4'},
+    {'name': 'On Sight', 'artist': 'Kanye West', 'id': 'uU9Fe-WXew4'}
 ]
 
 video = random.choice(videos_to_play)
-mycc.set_volume(0.4)
+mycc.set_volume(0.6)
 
 yt.play_video(video['id'])
 time.sleep(1 * 60) # Wait one minute

@@ -1,4 +1,4 @@
-#!/home/faustou/Projects/wakerupper/bin/python
+#!./bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
