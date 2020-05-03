@@ -3,7 +3,7 @@
 This is gonna blast music from my tv at 11 am because it's quarantine right now
 and I need something to wake me up at 11 am.
 
-### TODO
+## TODO
 
 #### SMALL
 - add a method to add songs
